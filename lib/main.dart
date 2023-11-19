@@ -124,7 +124,7 @@ class _MyHomePageState extends State<MyHomePage> {
             child: ListTile(
               leading: CircleAvatar(),
               title: Text(user.username),
-              subtitle: Text(user.id),
+              subtitle: Text(user.portfolio),
             ),
           );
         },
